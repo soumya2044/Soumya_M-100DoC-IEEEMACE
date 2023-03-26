@@ -1,4 +1,4 @@
-def sum(lst):
+def sqsum(lst):
   s=0
   for i in lst:
     if type(i)==int:
@@ -7,4 +7,4 @@ def sum(lst):
       continue;
   return s;
 L=eval(input("enter the list: "));
-print("The sum is: ",sum(L));
+print("The sum is: ",sqsum(L));
