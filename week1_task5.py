@@ -7,4 +7,4 @@ def sqsum(lst):
       continue;
   return s;
 L=eval(input("enter the list: "));
-print("The sum is: ",sqsum(L));
+print("The square sum is: ",sqsum(L));
